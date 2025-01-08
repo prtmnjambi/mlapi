@@ -16,7 +16,7 @@ def predict():
         }), 500
 
     try:
-        # Ambil input JSON dari request
+        # Ambil input JSON dari requests
         data = request.json
 
         # Pastikan semua input tersedia
